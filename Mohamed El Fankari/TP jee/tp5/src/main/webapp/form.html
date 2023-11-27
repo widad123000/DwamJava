@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <h2>User Information Form</h2>
+    <form action="ServletTraitement" method="get">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required><br>
+        
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required><br>
+
+        <label>Sexe:</label>
+        <input type="radio" name="sexe" value="H"> Homme
+        <input type="radio" name="sexe" value="F"> Femme<br>
+
+        <label for="fonction">Fonction:</label>
+        <select id="fonction" name="fonction">
+            <option value="Etudiant" selected>Etudiant</option>
+            <option value="Ingénieur">Ingénieur</option>
+            <option value="Enseignant">Enseignant</option>
+            <option value="Retraité">Retraité</option>
+            <option value="Autre">Autre</option>
+        </select><br>
+
+        <label>Loisirs:</label>
+        <input type="checkbox" name="loisirs" value="lecture"> Lecture
+        <input type="checkbox" name="loisirs" value="sport"> Sport
+        <input type="checkbox" name="loisirs" value="voyage"> Voyage<br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
