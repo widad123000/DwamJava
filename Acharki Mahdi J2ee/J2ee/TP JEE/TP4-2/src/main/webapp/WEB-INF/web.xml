@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>TP4 - 2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  
+ <servlet>
+<servlet-name>Ident</servlet-name>
+<servlet-class>Identification</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Ident</servlet-name>
+<url-pattern>/identification</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+  <servlet>
+<servlet-name>UV</servlet-name>
+<servlet-class>UtilisateurValide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>UV</servlet-name>
+<url-pattern>/UtilisateurValide</url-pattern>
+ </servlet-mapping>
+  
+  
+  
+  <servlet>
+<servlet-name>UNV</servlet-name>
+<servlet-class>UtilisateurNonValide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>UNV</servlet-name>
+<url-pattern>/UtilisateurNonValide</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+</web-app>
