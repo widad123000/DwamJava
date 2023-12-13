@@ -1,0 +1,31 @@
+nav ul li{
+    list-style: none;
+    border: 2px solid red ;
+    
+}
+nav > .menu> li{
+    display: inline-block;
+    border: 2px solid red ;
+    
+
+
+}
+nav > .menu> li>ul{
+   margin: 0;
+   padding: 0;
+   display: none;
+   border: 2px solid red ;
+   
+  
+}
+nav .menu > li:hover > .sous1 {
+    display: inline-block;
+    border: 2px solid red ;
+    position: absolute;
+   
+}
+
+
+
+
+
