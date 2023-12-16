@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="ServletTraitement.java">
+	<label for="prenom">Prénom: </label>
+	<input type="text" id="prenom" name="prenom">
+	<br>
+	<label for="nom">Nom: </label>
+	<input type="text" id="nom" name="nom">
+	<br>
+	M <input type="radio" name="sexe">   F    <input type="radio" name="sexe"> 	
+	<br>
+	<select name="fonction"><option>Etudiant</option>  <option> Ingénieur </option>   <option>Enseignant </option>  <option>Retraité </option>  <option>Autre </option>  </select>
+	<br>
+	<input type="checkbox" name ="loisirs" value="lecture"> Lecture
+    <input type="checkbox" name ="loisirs" value="sport">Sport
+    <input type="checkbox" name ="loisirs" value="voyage">Voyage
+	<br>
+	<textarea name="msg"></textarea>
+	<br>
+	<input type="submit" value="Valider">
+    <br>
+   
+
+</form>
+</body>
+</html>
