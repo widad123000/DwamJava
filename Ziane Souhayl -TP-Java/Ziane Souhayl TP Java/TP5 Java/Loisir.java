@@ -1,0 +1,3 @@
+interface Loisir {
+    void courirOuMarcher();
+}
