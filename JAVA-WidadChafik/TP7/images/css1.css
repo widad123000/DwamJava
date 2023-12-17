@@ -1,0 +1,37 @@
+body{
+    background-image: url(parchemin2.jpg);
+    
+}
+nav{
+    background-color: goldenrod;
+    padding: 16px;
+   border:3px solid black;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 2px;
+    float:left;
+    padding-left: 15px;
+}
+nav form{
+
+    border:3px solid black;
+padding-left: 800px;
+
+}
+img{
+    margin-right: 30px;
+}
+nav form input{
+    width:500px ;
+}
+a[href="https://www.histoire-pour-tous.fr/dossiers/2645-la-legende-de-la-naissance-de-rome.html"] img {
+    border :10px solid blueviolet; 
+}
+a[href*="wikipedia"] img {
+    border :10px solid #B6DCF6; 
+}
+img[src="Colisee.png"]{
+    border :10px solid red; 
+}
